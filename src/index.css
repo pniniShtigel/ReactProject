@@ -1,0 +1,97 @@
+#bord {
+  border: rgb(58, 152, 58) solid;
+  padding: 50px;
+  border-radius: 7%;
+  display: flex;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 2;
+  font-weight: 700;
+  color: rgb(58, 152, 58);
+  font-size: larger;
+}
+
+#datails {
+  border: rgb(248, 244, 237) solid;
+  background-color: rgb(248, 244, 237);
+  border-radius: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 60px;
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+}
+
+#img {
+  border-radius: 7%;
+  height: 50px;
+  width: 50px;
+}
+
+.show {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.det {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: rgb(248, 244, 237) solid;
+}
+
+.details-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: auto;
+}
+
+.details-logo {
+  width: 200px;
+  height: auto;
+}
+
+.details-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.details-item {
+  font-size: 16px;
+}
+
+.fix {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  z-index: 999;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
